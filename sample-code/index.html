@@ -55,13 +55,10 @@
   <script>
     document.querySelector('invoice-form-component').addEventListener('submit', (event) => {
       console.log('Form Data:', event.detail);
-      const invoiceData = {
-        companyName: event.detail.companyName,
-      };
-
+      
       // Update the invoice-component's data attribute
       const invoiceComponent = document.querySelector('invoice-component');
-      invoiceComponent.setAttribute('data', JSON.stringify(invoiceData));
+      invoiceComponent.setAttribute('data', JSON.stringify(event.detail));
     });
 
   </script>
