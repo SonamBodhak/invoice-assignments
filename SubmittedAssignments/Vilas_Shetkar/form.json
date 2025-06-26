@@ -1,0 +1,1421 @@
+{
+    "invoice-component": {
+        "formFields": [
+            {
+                "wrappers": [
+                    "tabs"
+                ],
+                "templateOptions": {
+                    "orientation": "horizontal",
+                    "navType": "nav nav-tabs"
+                },
+                "fieldGroup": [
+                    {
+                        "key": "config",
+                        "templateOptions": {
+                            "label": "Configuration"
+                        },
+                        "fieldGroupClassName": "row",
+                        "fieldGroup": [
+                            {
+                                "key": "backgroundDiv",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Background Div"
+                                }
+                            },
+                            {
+                                "key": "backgroundClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Background Class"
+                                }
+                            },
+                            {
+                                "key": "buttonClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Button Class"
+                                }
+                            },
+                            {
+                                "key": "rec1Class",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Rectangle 1 Class"
+                                }
+                            },
+                            {
+                                "key": "rec2Class",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Rectangle 2 Class"
+                                }
+                            },
+                            {
+                                "key": "rec3Class",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Rectangle 3 Class"
+                                }
+                            },
+                            {
+                                "key": "rec4Class",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Rectangle 4 Class"
+                                }
+                            },
+                            {
+                                "key": "rec5Class",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Rectangle 5 Class"
+                                }
+                            },
+                            {
+                                "key": "rec6Class",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Rectangle 6 Class"
+                                }
+                            },
+                            {
+                                "key": "lineClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Line Class"
+                                }
+                            },
+                            {
+                                "key": "contentClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Content Class"
+                                }
+                            },
+                            {
+                                "key": "titleClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Title Class"
+                                }
+                            },
+                            {
+                                "key": "headerClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Header Class"
+                                }
+                            },
+                            {
+                                "key": "logoClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Logo Class"
+                                }
+                            },
+                            {
+                                "key": "qrClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "QR Class"
+                                }
+                            },
+                            {
+                                "key": "detailsClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Details Class"
+                                }
+                            },
+                            {
+                                "key": "addressClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Address Class"
+                                }
+                            },
+                            {
+                                "key": "detailsHeaderClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Details Header Class"
+                                }
+                            },
+                            {
+                                "key": "tableClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Table Class"
+                                }
+                            },
+                            {
+                                "key": "tableHeaderClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Table Header Class"
+                                }
+                            },
+                            {
+                                "key": "rightAlignClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Right Align Class"
+                                }
+                            },
+                            {
+                                "key": "totalClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Total Class"
+                                }
+                            },
+                            {
+                                "key": "bankDetailsClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Bank Details Class"
+                                }
+                            },
+                            {
+                                "key": "termsClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Terms Class"
+                                }
+                            },
+                            {
+                                "key": "footerClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Footer Class"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "key": "data",
+                        "templateOptions": {
+                            "label": "Data"
+                        },
+                        "fieldGroupClassName": "row",
+                        "fieldGroup": [
+                            {
+                                "key": "uid",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "UID"
+                                }
+                            },
+                            {
+                                "key": "category",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Category"
+                                }
+                            },
+                            {
+                                "key": "type",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Type"
+                                }
+                            },
+                            {
+                                "key": "remark",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Remark"
+                                }
+                            },
+                            {
+                                "key": "subTotal",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Sub Total"
+                                }
+                            },
+                            {
+                                "key": "discount",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Discount"
+                                }
+                            },
+                            {
+                                "key": "amount",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Amount"
+                                }
+                            },
+                            {
+                                "key": "config",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Config (Storage Location Id)"
+                                }
+                            },
+                            {
+                                "key": "couponDiscount",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Coupon Discount"
+                                }
+                            },
+                            {
+                                "key": "discountedSubTotal",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Discounted Sub Total"
+                                }
+                            },
+                            {
+                                "key": "taxTotal",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Tax Total"
+                                }
+                            },
+                            {
+                                "key": "mrpTotal",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "MRP Total"
+                                }
+                            },
+                            {
+                                "key": "previousDue",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Previous Due"
+                                }
+                            },
+                            {
+                                "key": "roundOff",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Round Off"
+                                }
+                            },
+                            {
+                                "key": "subTotalAmount",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Sub Total Amount"
+                                }
+                            },
+                            {
+                                "key": "shippingCharges",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Shipping Charges"
+                                }
+                            },
+                            {
+                                "key": "shippingDiscount",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Shipping Discount"
+                                }
+                            },
+                            {
+                                "key": "paymentStatus",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Payment Status"
+                                }
+                            },
+                            {
+                                "key": "deliveryStatus",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Delivery Status"
+                                }
+                            },
+                            {
+                                "key": "invoiceDate",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Invoice Date"
+                                }
+                            },
+                            {
+                                "key": "dueDate",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Due Date"
+                                }
+                            },
+                            {
+                                "key": "created",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Created"
+                                }
+                            },
+                            {
+                                "key": "modified",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Modified"
+                                }
+                            },
+                            {
+                                "key": "Party",
+                                "type": "group",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Party (Object)"
+                                },
+                                "fieldGroup": [
+                                    {
+                                        "key": "uid",
+                                        "type": "input",
+                                        "className": "col-6",
+                                        "templateOptions": {
+                                            "label": "UID"
+                                        }
+                                    },
+                                    {
+                                        "key": "puid",
+                                        "type": "input",
+                                        "className": "col-6",
+                                        "templateOptions": {
+                                            "label": "PUID"
+                                        }
+                                    },
+                                    {
+                                        "key": "name",
+                                        "type": "input",
+                                        "className": "col-6",
+                                        "templateOptions": {
+                                            "label": "Name"
+                                        }
+                                    },
+                                    {
+                                        "key": "firstName",
+                                        "type": "input",
+                                        "className": "col-6",
+                                        "templateOptions": {
+                                            "label": "First Name"
+                                        }
+                                    },
+                                    {
+                                        "key": "middleName",
+                                        "type": "input",
+                                        "className": "col-6",
+                                        "templateOptions": {
+                                            "label": "Middle Name"
+                                        }
+                                    },
+                                    {
+                                        "key": "lastName",
+                                        "type": "input",
+                                        "className": "col-6",
+                                        "templateOptions": {
+                                            "label": "Last Name"
+                                        }
+                                    },
+                                    {
+                                        "key": "mobile",
+                                        "type": "input",
+                                        "className": "col-6",
+                                        "templateOptions": {
+                                            "label": "Mobile"
+                                        }
+                                    },
+                                    {
+                                        "key": "email",
+                                        "type": "input",
+                                        "className": "col-6",
+                                        "templateOptions": {
+                                            "label": "Email"
+                                        }
+                                    },
+                                    {
+                                        "key": "billingAddress",
+                                        "type": "group",
+                                        "className": "col-12",
+                                        "templateOptions": {
+                                            "label": "Billing Address"
+                                        },
+                                        "fieldGroup": [
+                                            {
+                                                "key": "line1",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Line 1"
+                                                }
+                                            },
+                                            {
+                                                "key": "line2",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Line 2"
+                                                }
+                                            },
+                                            {
+                                                "key": "location",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Location"
+                                                }
+                                            },
+                                            {
+                                                "key": "area",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Area"
+                                                }
+                                            },
+                                            {
+                                                "key": "city",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "City"
+                                                }
+                                            },
+                                            {
+                                                "key": "state",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "State"
+                                                }
+                                            },
+                                            {
+                                                "key": "country",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Country"
+                                                }
+                                            },
+                                            {
+                                                "key": "pincode",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Pincode"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "shippingAddress",
+                                        "type": "group",
+                                        "className": "col-12",
+                                        "templateOptions": {
+                                            "label": "Shipping Address"
+                                        },
+                                        "fieldGroup": [
+                                            {
+                                                "key": "line1",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Line 1"
+                                                }
+                                            },
+                                            {
+                                                "key": "line2",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Line 2"
+                                                }
+                                            },
+                                            {
+                                                "key": "location",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Location"
+                                                }
+                                            },
+                                            {
+                                                "key": "area",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Area"
+                                                }
+                                            },
+                                            {
+                                                "key": "city",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "City"
+                                                }
+                                            },
+                                            {
+                                                "key": "state",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "State"
+                                                }
+                                            },
+                                            {
+                                                "key": "country",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Country"
+                                                }
+                                            },
+                                            {
+                                                "key": "pincode",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Pincode"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "address",
+                                        "type": "group",
+                                        "className": "col-12",
+                                        "templateOptions": {
+                                            "label": "Address"
+                                        },
+                                        "fieldGroup": [
+                                            {
+                                                "key": "line1",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Line 1"
+                                                }
+                                            },
+                                            {
+                                                "key": "line2",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Line 2"
+                                                }
+                                            },
+                                            {
+                                                "key": "line3",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Line 3"
+                                                }
+                                            },
+                                            {
+                                                "key": "location",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Location"
+                                                }
+                                            },
+                                            {
+                                                "key": "area",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Area"
+                                                }
+                                            },
+                                            {
+                                                "key": "city",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "City"
+                                                }
+                                            },
+                                            {
+                                                "key": "state",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "State"
+                                                }
+                                            },
+                                            {
+                                                "key": "country",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Country"
+                                                }
+                                            },
+                                            {
+                                                "key": "pincode",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Pincode"
+                                                }
+                                            },
+                                            {
+                                                "key": "zoom",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Zoom"
+                                                }
+                                            },
+                                            {
+                                                "key": "accuracy",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Accuracy"
+                                                }
+                                            },
+                                            {
+                                                "key": "latLng",
+                                                "type": "group",
+                                                "className": "col-12",
+                                                "templateOptions": {
+                                                    "label": "Lat/Lng"
+                                                },
+                                                "fieldGroup": [
+                                                    {
+                                                        "key": "lat",
+                                                        "type": "input",
+                                                        "className": "col-6",
+                                                        "templateOptions": {
+                                                            "label": "Latitude"
+                                                        }
+                                                    },
+                                                    {
+                                                        "key": "lng",
+                                                        "type": "input",
+                                                        "className": "col-6",
+                                                        "templateOptions": {
+                                                            "label": "Longitude"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "bankDetails",
+                                        "type": "group",
+                                        "className": "col-12",
+                                        "templateOptions": {
+                                            "label": "Bank Details"
+                                        },
+                                        "fieldGroup": [
+                                            {
+                                                "key": "accountNumber",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "Account Number"
+                                                }
+                                            },
+                                            {
+                                                "key": "ifscCode",
+                                                "type": "input",
+                                                "className": "col-6",
+                                                "templateOptions": {
+                                                    "label": "IFSC Code"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "dob",
+                                        "type": "input",
+                                        "className": "col-6",
+                                        "templateOptions": {
+                                            "label": "Date of Birth"
+                                        }
+                                    },
+                                    {
+                                        "key": "gender",
+                                        "type": "input",
+                                        "className": "col-6",
+                                        "templateOptions": {
+                                            "label": "Gender"
+                                        }
+                                    },
+                                    {
+                                        "key": "joiningDate",
+                                        "type": "input",
+                                        "className": "col-6",
+                                        "templateOptions": {
+                                            "label": "Joining Date"
+                                        }
+                                    },
+                                    {
+                                        "key": "maritalStatus",
+                                        "type": "input",
+                                        "className": "col-6",
+                                        "templateOptions": {
+                                            "label": "Marital Status"
+                                        }
+                                    },
+                                    {
+                                        "key": "pan",
+                                        "type": "input",
+                                        "className": "col-6",
+                                        "templateOptions": {
+                                            "label": "PAN"
+                                        }
+                                    },
+                                    {
+                                        "key": "userId",
+                                        "type": "input",
+                                        "className": "col-6",
+                                        "templateOptions": {
+                                            "label": "User ID"
+                                        }
+                                    },
+                                    {
+                                        "key": "profilePicture",
+                                        "type": "input",
+                                        "className": "col-12",
+                                        "templateOptions": {
+                                            "label": "Profile Picture URL"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "particulars",
+                                "type": "repeat",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Particulars (Array)"
+                                },
+                                "fieldArray": {
+                                    "fieldGroup": [
+                                        {
+                                            "key": "_id",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "ID"
+                                            }
+                                        },
+                                        {
+                                            "key": "category",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Category"
+                                            }
+                                        },
+                                        {
+                                            "key": "type",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Type"
+                                            }
+                                        },
+                                        {
+                                            "key": "quantity",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Quantity"
+                                            }
+                                        },
+                                        {
+                                            "key": "sgst",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "SGST"
+                                            }
+                                        },
+                                        {
+                                            "key": "cgst",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "CGST"
+                                            }
+                                        },
+                                        {
+                                            "key": "inBoxQuantity",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "In Box Quantity"
+                                            }
+                                        },
+                                        {
+                                            "key": "boxQuantity",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Box Quantity"
+                                            }
+                                        },
+                                        {
+                                            "key": "mrp",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "MRP"
+                                            }
+                                        },
+                                        {
+                                            "key": "purchaseRate",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Purchase Rate"
+                                            }
+                                        },
+                                        {
+                                            "key": "saleRate",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Sale Rate"
+                                            }
+                                        },
+                                        {
+                                            "key": "retailRate",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Retail Rate"
+                                            }
+                                        },
+                                        {
+                                            "key": "subTotal",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Sub Total"
+                                            }
+                                        },
+                                        {
+                                            "key": "discount",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Discount"
+                                            }
+                                        },
+                                        {
+                                            "key": "discountedSubTotal",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Discounted Sub Total"
+                                            }
+                                        },
+                                        {
+                                            "key": "taxTotal",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Tax Total"
+                                            }
+                                        },
+                                        {
+                                            "key": "amount",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Amount"
+                                            }
+                                        },
+                                        {
+                                            "key": "mrpTotal",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "MRP Total"
+                                            }
+                                        },
+                                        {
+                                            "key": "stockDate",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Stock Date"
+                                            }
+                                        },
+                                        {
+                                            "key": "config",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Config (Object)"
+                                            }
+                                        },
+                                        {
+                                            "key": "Product",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Product (Object)"
+                                            }
+                                        },
+                                        {
+                                            "key": "StorageLocation",
+                                            "type": "input",
+                                            "className": "col-12",
+                                            "templateOptions": {
+                                                "label": "Storage Location (Object)"
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "key": "Company",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Company (Object)"
+                                }
+                            },
+                            {
+                                "key": "balance",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Balance"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "formData": {
+            "config": {
+                "backgroundDiv": "invoice-wrapper",
+                "backgroundClass": "invoice-background",
+                "buttonClass": "btn btn-primary",
+                "rec1Class": "rect-top-1",
+                "rec2Class": "rect-top-2",
+                "rec3Class": "rect-top-3",
+                "rec4Class": "rect-bottom-1",
+                "rec5Class": "rect-bottom-2",
+                "rec6Class": "rect-bottom-3",
+                "lineClass": "line1",
+                "contentClass": "invoice-content",
+                "titleClass": "invoice-title",
+                "headerClass": "invoice-header",
+                "logoClass": "invoice-header-logo",
+                "qrClass": "qr",
+                "detailsClass": "invoice-details",
+                "addressClass": "org-address",
+                "detailsHeaderClass": "details-header",
+                "tableClass": "content-table",
+                "tableHeaderClass": "content-header",
+                "rightAlignClass": "right-align",
+                "totalClass": "total-amount",
+                "bankDetailsClass": "bank-details",
+                "termsClass": "terms primary",
+                "footerClass": "invoice-footer"
+            },
+            "data": {
+                "uid": "IN00000618",
+                "category": "Sale",
+                "type": "Sale",
+                "remark": "Invoice against Order #OR00000709",
+                "config": {
+                    "storageLocationId": "64097cc4462d5422fccd8e84"
+                },
+                "subTotal": 100,
+                "discount": 64,
+                "couponDiscount": 0,
+                "discountedSubTotal": 100,
+                "taxTotal": 0,
+                "mrpTotal": 164,
+                "previousDue": 0,
+                "amount": 100,
+                "roundOff": 0,
+                "subTotalAmount": 100,
+                "shippingCharges": 30,
+                "shippingDiscount": 30,
+                "paymentStatus": "Unpaid",
+                "deliveryStatus": "ReturnProcessing",
+                "invoiceDate": "2023-06-23T00:00:00.000Z",
+                "dueDate": "2023-06-13T11:33:24.335Z",
+                "created": "2023-06-23T12:07:09.564Z",
+                "modified": "2023-06-23T12:52:07.296Z",
+                "Party": {
+                    "uid": "LDU7WXCR",
+                    "puid": "User",
+                    "name": "Ashvini Shetkar",
+                    "firstName": "Ashvini",
+                    "lastName": "Shetkar",
+                    "mobile": "+917517978898",
+                    "email": "vilasshetkar@gmail.com",
+                    "billingAddress": {
+                        "line1": "Hariom plaza",
+                        "line2": "Kalewadi",
+                        "location": "Pune H.O",
+                        "area": "Pune City",
+                        "city": "Pune",
+                        "state": "MAHARASHTRA",
+                        "country": "india",
+                        "pincode": "411001"
+                    },
+                    "shippingAddress": {
+                        "line1": "Hariom plaza",
+                        "line2": "Kalewadi",
+                        "location": "Pune H.O",
+                        "area": "Pune City",
+                        "city": "Pune",
+                        "state": "MAHARASHTRA",
+                        "country": "india",
+                        "pincode": "411001"
+                    },
+                    "address": {
+                        "line1": "Shop No. 8, Hari Om Plaza, Pune",
+                        "line2": "Kalewadi-Pimpri Main Road, Nadhe Nagar, Kalewadi",
+                        "line3": "Opp. Joytiba Temple",
+                        "location": "Kalewadi ",
+                        "area": "Pune City",
+                        "city": "Pune",
+                        "state": "MAHARASHTRA",
+                        "country": "India",
+                        "pincode": "411017",
+                        "zoom": 14,
+                        "accuracy": 17.778,
+                        "latLng": {
+                            "lat": 18.61799689999999,
+                            "lng": 73.7917382
+                        }
+                    },
+                    "bankDetails": {
+                        "accountNumber": "123456",
+                        "ifscCode": ""
+                    },
+                    "dob": "1990-02-02T00:00:00.000Z",
+                    "gender": "male",
+                    "joiningDate": "2023-03-14T00:00:00.000Z",
+                    "maritalStatus": "Married",
+                    "middleName": "ABCD",
+                    "pan": "DDDFG8765F",
+                    "userId": "63e243e0b8c48b22c885b4b9",
+                    "profilePicture": "https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_0.jpg",
+                    "InvoiceSalesSummary": {
+                        "mrpTotal": 2845514,
+                        "roundOff": 0.01999999999999999,
+                        "discountedSubTotal": 1702586.98,
+                        "invoices": 81,
+                        "subTotal": 1634226.98,
+                        "discount": 1142927.02,
+                        "taxTotal": 0,
+                        "previousDue": 0,
+                        "amount": 1702747,
+                        "subTotalAmount": 1702586.98
+                    },
+                    "TransactionSummary": {
+                        "totalCreditAmount": 1781333,
+                        "totalDebitAmount": 10720,
+                        "transactions": 115,
+                        "totalCredit": 115,
+                        "totalDebit": 115
+                    },
+                    "ReferralSummary": {
+                        "totalCount": 17,
+                        "transactions": 5,
+                        "totalCreditAmount": 173984,
+                        "totalDebitAmount": 0,
+                        "noTransactions": 12
+                    }
+                },
+                "particulars": [
+                    {
+                        "_id": "6495957729bd8844641bf4bf",
+                        "category": "Sale",
+                        "type": "Sale",
+                        "quantity": -1,
+                        "sgst": 0,
+                        "cgst": 0,
+                        "inBoxQuantity": -12,
+                        "boxQuantity": -1,
+                        "mrp": 164,
+                        "purchaseRate": 116.19,
+                        "saleRate": 100,
+                        "retailRate": 126.19,
+                        "subTotal": 100,
+                        "discount": 64,
+                        "discountedSubTotal": 100,
+                        "taxTotal": 0,
+                        "amount": 100,
+                        "mrpTotal": 164,
+                        "stockDate": "2023-06-23T00:00:00.000Z",
+                        "config": {},
+                        "Product": {
+                            "uid": "PR5045",
+                            "name": "Gemini Sunflower Oil",
+                            "shortName": "Gemini Sunflower Oil",
+                            "type": "Product",
+                            "tax": 0,
+                            "isTaxIncluded": true,
+                            "image": "/api/download/63e243e0b8c48b22c885b4b9/Cooking Oil/Gemini Sunflower Oil_1_liter.jpg",
+                            "description": "<p>Gemini Sunflower Oil</p>",
+                            "unit": "PCS",
+                            "boxQuantity": 1,
+                            "purchaseRate": 116.19,
+                            "retailRate": 126.19,
+                            "mrp": 164,
+                            "retailMarginType": "Amount",
+                            "retailMargin": 10,
+                            "crate": false,
+                            "showInStore": true,
+                            "isStockRequired": true,
+                            "category": "Grocery",
+                            "additionalCategories": [],
+                            "subCategory": "CookingOil",
+                            "addToStock": false,
+                            "startDate": "2023-05-19T00:00:00.000Z",
+                            "expiryDate": "2023-05-19T00:00:00.000Z",
+                            "created": "2023-05-19T08:28:46.455Z",
+                            "modified": "2023-05-29T06:51:36.385Z",
+                            "additionalFields": {},
+                            "variantOptions": [],
+                            "wholesaleMarginType": "Percentage",
+                            "inBoxName": "Box",
+                            "inBoxQuantity": 12,
+                            "AvailableStock": {
+                                "purchaseQuantity": 12,
+                                "soldQuantity": -6,
+                                "totalPrchaseAmount": 697.14,
+                                "stockIn": 0,
+                                "totalSaleAmount": 0,
+                                "totalMrpAmount": 0,
+                                "stockOut": 0,
+                                "quantity": 6
+                            },
+                            "Discount": [],
+                            "Variants": [],
+                            "retailDiscount": 37.81,
+                            "retailDiscountPercentage": 23.05,
+                            "wholesaleDiscount": null,
+                            "wholesaleDiscountPercentage": null
+                        },
+                        "StorageLocation": {
+                            "category": "Godown",
+                            "name": "kalewadi",
+                            "address": "fwehfwe",
+                            "building": "hari om plaza",
+                            "wing": "A",
+                            "floor": "5",
+                            "chamber": "first",
+                            "rack": "first",
+                            "location": "kalewadi",
+                            "width": 100,
+                            "length": 100,
+                            "height": 50
+                        }
+                    }
+                ],
+                "Company": {
+                    "name": "Apnasite",
+                    "bankDetails": {
+                        "accountNumber": "1234567890",
+                        "bankName": "HDFC",
+                        "branch": "Pune",
+                        "accountHolderName": "Apnasite",
+                        "ifscCode": "HDFC0000234",
+                        "vpa": "apnasite@ybl"
+                    },
+                    "contactDetails": {
+                        "email": "kaapnasiteuser@gmail.com",
+                        "mobile": "+917517978898",
+                        "whatsappNumber": "+919049508514",
+                        "phone": "",
+                        "website": "http://apnasite.in",
+                        "tollFreeNo": "",
+                        "socialLinks": [
+                            {
+                                "name": "Facebook",
+                                "label": "Facebook",
+                                "url": "https://facebook.com/apnasite",
+                                "className": "btn btn-link",
+                                "icon": "bi bi-facebook",
+                                "type": "Link"
+                            }
+                        ]
+                    },
+                    "gst": "",
+                    "logo": "/api/download/localhost/default/apnasite-logo-light.png",
+                    "address": {
+                        "line1": "Hariom plaza",
+                        "line2": "Kalewadi",
+                        "location": "Pune H.O",
+                        "area": "Pune City",
+                        "city": "Pune",
+                        "state": "MAHARASHTRA",
+                        "country": "india",
+                        "pincode": "411001"
+                    },
+                    "darkLogo": "/api/download/localhost/default/apnasite-logo-light.png"
+                },
+                "balance": null
+            }
+        }
+    },
+    "invoice-form-component": {
+        "formFields": [
+            {
+                "wrappers": [
+                    "tabs"
+                ],
+                "templateOptions": {
+                    "orientation": "horizontal",
+                    "navType": "nav nav-tabs"
+                },
+                "fieldGroup": [
+                    {
+                        "key": "config",
+                        "templateOptions": {
+                            "label": "Configuration"
+                        },
+                        "fieldGroupClassName": "row",
+                        "fieldGroup": [
+                            {
+                                "key": "formClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Form Class"
+                                }
+                            },
+                            {
+                                "key": "formLabelClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Form Label Class"
+                                }
+                            },
+                            {
+                                "key": "formControlClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Form Control Class"
+                                }
+                            },
+                            {
+                                "key": "formRowClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Form Row Class"
+                                }
+                            },
+                            {
+                                "key": "formButtonClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Form Button Class"
+                                }
+                            },
+                            {
+                                "key": "particularsTableClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Particulars Table Class"
+                                }
+                            },
+                            {
+                                "key": "particularsAddBtnClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Particulars Add Button Class"
+                                }
+                            },
+                            {
+                                "key": "particularsRemoveBtnClass",
+                                "type": "input",
+                                "className": "col-12",
+                                "templateOptions": {
+                                    "label": "Particulars Remove Button Class"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "formData": {
+            "config": {
+                "formClass": "invoice-form container",
+                "formLabelClass": "form-label",
+                "formControlClass": "form-control",
+                "formRowClass": "form-row",
+                "formButtonClass": "btn btn-primary",
+                "particularsTableClass": "particulars-table table table-striped table-sm table-bordered",
+                "particularsAddBtnClass": "btn btn-secondary btn-sm",
+                "particularsRemoveBtnClass": "btn btn-danger btn-sm"
+            }
+        }
+    }
+}
