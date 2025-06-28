@@ -3,6 +3,7 @@ class InvoiceComponent extends HTMLElement {
     super();
     this.config = this.defaultConfig();
     this.data = this.defaultData();
+    this.attachShadow({ mode: 'open' });
     this.render();
   }
 
@@ -311,7 +312,7 @@ class InvoiceComponent extends HTMLElement {
   }
 
   render() {
-    this.innerHTML = "";
+    this.shadowRoot.innerHTML = "";
 
     const wrapper = this.createElement("div", this.config.backgroundDiv);
     wrapper.appendChild(this.renderBackground());
@@ -327,7 +328,7 @@ class InvoiceComponent extends HTMLElement {
     content.appendChild(this.renderFooter());
 
     wrapper.appendChild(content);
-    this.appendChild(wrapper);
+    this.shadowRoot.appendChild(wrapper);
   }
 
   renderBackground() {
