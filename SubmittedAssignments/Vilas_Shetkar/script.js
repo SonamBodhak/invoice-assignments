@@ -716,10 +716,13 @@ class InvoiceFormComponent extends HTMLElement {
   }
 }
 
-// Define the custom element
-customElements.define('invoice-form-component', InvoiceFormComponent);
-// Define the custom element
-customElements.define("invoice-component", InvoiceComponent);
+// Define the custom element only if not already defined
+if (!customElements.get('invoice-form-component')) {
+  customElements.define('invoice-form-component', InvoiceFormComponent);
+}
+if (!customElements.get('invoice-component')) {
+  customElements.define('invoice-component', InvoiceComponent);
+}
 
 // Export for window
 if (!window.customElementsList) window.customElementsList = [];
