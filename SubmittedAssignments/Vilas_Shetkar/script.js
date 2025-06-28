@@ -293,7 +293,7 @@ class InvoiceComponent extends HTMLElement {
           ]
         },
         "gst": "",
-        "logo": "/api/download/localhost/default/apnasite-logo-light.png",
+        "logo": "https://services.apnasite.in/invoice-assignments/Vilas_Shetkar/img/logo.png",
         "address": {
           "line1": "Hariom plaza",
           "line2": "Kalewadi",
@@ -304,7 +304,7 @@ class InvoiceComponent extends HTMLElement {
           "country": "india",
           "pincode": "411001"
         },
-        "darkLogo": "/api/download/localhost/default/apnasite-logo-light.png"
+        "darkLogo": "https://services.apnasite.in/invoice-assignments/Vilas_Shetkar/img/logo.png"
       },
       "balance": null
     };
@@ -353,14 +353,14 @@ class InvoiceComponent extends HTMLElement {
 
   renderLogo() {
     const logo = this.createElement("img", this.config.logoClass);
-    logo.src = this.data.logo || "./img/logo.png";
+    logo.src = this.data.logo || "https://services.apnasite.in/invoice-assignments/Vilas_Shetkar/img/logo.png";
     logo.alt = "Logo";
     return logo;
   }
 
   renderQR() {
     const qr = this.createElement("img", this.config.qrClass);
-    qr.src = this.data.qr || "./img/qr.png";
+    qr.src = this.data.qr || "https://services.apnasite.in/invoice-assignments/Vilas_Shetkar/img/qr.png";
     qr.alt = "QR";
     return qr;
   }
