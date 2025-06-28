@@ -3,8 +3,7 @@ class InvoiceComponent extends HTMLElement {
     super();
     this.config = this.defaultConfig();
     this.data = this.defaultData();
-    this.attachShadow({ mode: 'open' });
-    this.render();
+    
   }
 
   static get observedAttributes() {
@@ -16,6 +15,7 @@ class InvoiceComponent extends HTMLElement {
       Object.assign(this.data, event.detail);
       this.render();
     });
+    this.render();
   }
 
   attributeChangedCallback(name, oldValue, newValue) {
@@ -312,7 +312,7 @@ class InvoiceComponent extends HTMLElement {
   }
 
   render() {
-    this.shadowRoot.innerHTML = "";
+    this.innerHTML = "";
 
     const wrapper = this.createElement("div", this.config.backgroundDiv);
     wrapper.appendChild(this.renderBackground());
@@ -328,7 +328,7 @@ class InvoiceComponent extends HTMLElement {
     content.appendChild(this.renderFooter());
 
     wrapper.appendChild(content);
-    this.shadowRoot.appendChild(wrapper);
+    this.appendChild(wrapper);
   }
 
   renderBackground() {
