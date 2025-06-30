@@ -412,7 +412,6 @@
                             },
                             {
                                 "key": "Party",
-                                "type": "group",
                                 "className": "col-12",
                                 "templateOptions": {
                                     "label": "Party (Object)"
@@ -484,7 +483,6 @@
                                     },
                                     {
                                         "key": "billingAddress",
-                                        "type": "group",
                                         "className": "col-12",
                                         "templateOptions": {
                                             "label": "Billing Address"
@@ -558,7 +556,6 @@
                                     },
                                     {
                                         "key": "shippingAddress",
-                                        "type": "group",
                                         "className": "col-12",
                                         "templateOptions": {
                                             "label": "Shipping Address"
@@ -632,7 +629,6 @@
                                     },
                                     {
                                         "key": "address",
-                                        "type": "group",
                                         "className": "col-12",
                                         "templateOptions": {
                                             "label": "Address"
@@ -728,7 +724,6 @@
                                             },
                                             {
                                                 "key": "latLng",
-                                                "type": "group",
                                                 "className": "col-12",
                                                 "templateOptions": {
                                                     "label": "Lat/Lng"
@@ -756,7 +751,6 @@
                                     },
                                     {
                                         "key": "bankDetails",
-                                        "type": "group",
                                         "className": "col-12",
                                         "templateOptions": {
                                             "label": "Bank Details"
