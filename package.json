@@ -1,0 +1,19 @@
+{
+  "name": "invoice-assignments",
+  "version": "1.0.0",
+  "description": "This project is developed and maintained by **Maha Mission Education and Career Council (NGO)** under its skill-based learning initiative at **ApnaGuru.in**. The assignment is technically supported by **Apnasite IT Services Pvt. Ltd.**, providing:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "bundle-dev": "node . --dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "ngrok": "^5.0.0-beta.2"
+  }
+}
