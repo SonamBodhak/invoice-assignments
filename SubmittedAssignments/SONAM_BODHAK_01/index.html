@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Assignment</title>
+</head>
+<body>
+
+    <invoice-component
+        config='{
+            "containerClass": "invoice-container",
+            "headerClass": "invoice-header",
+            "logoClass": "invoice-logo",
+            "titleClass": "invoice-title",
+            "detailsClass": "invoice-details",
+            "sellerInfoClass": "seller-info",
+            "clientInfoClass": "client-info",
+            "itemsClass": "invoice-items",
+            "tableClass": "invoice-table",
+            "totalSectionClass": "total-section",
+            "footerClass": "invoice-footer",
+            "amountInWordsClass": "amount-in-words",
+            "footerTextClass": "invoice-footer-text",
+            "showBankDetails": true,
+            "showTerms": true
+        }'
+        data='{
+            "logo": "./invoice-logo.png",
+            "logoAlt": "Invoice Logo",
+            "party": {
+                "name": "Aditya Jadhav",
+                "mobile": "+917498848862",
+                "email": "flexprinting01@gmail.com",
+                "address": {
+                    "location": "Kalewadi",
+                    "city": "Pune",
+                    "state": "Maharashtra",
+                    "country": "India",
+                    "pincode": "411017"
+                }
+            },
+            "company": {
+                "name": "Kalpesh Shewale",
+                "mobile": "+918669368242",
+                "email": "kshewale2001@gmail.com",
+                "address": {
+                    "city": "Adilabad",
+                    "state": "Andhra Pradesh",
+                    "country": "India",
+                    "pincode": "504306"
+                }
+            },
+            "invoiceNumber": "IN00000659",
+            "invoiceDate": "Sep 4, 2024",
+            "items": [
+                { "name": "Product 1", "price": 100, "quantity": 2, "discount": 10, "sgst": 9, "cgst": 9 },
+                { "name": "Product 2", "price": 150, "quantity": 1, "discount": 0, "sgst": 13.5, "cgst": 13.5 }
+            ],
+            "subTotal": 350,
+            "discount": 10,
+            "taxableAmount": 340,
+            "sgstTotal": 22.5,
+            "cgstTotal": 22.5,
+            "amount": 385,
+            "totalAmount": 385,
+            "amountInWords": "Three Hundred Eighty Five",
+            "bankDetails": {
+                "bank": "Yes Bank",
+                "account": "12345678901234",
+                "ifsc": "YESB0BNA567",
+                "branch": "Pune Branch"
+            },
+            "terms": [
+                "Goods once sold cannot be returned.",
+                "Payment should be made within 15 days."
+            ]
+        }'>
+    </invoice-component>
+
+    <script src="script.js"></script>
+</body>
+</html>
